@@ -461,6 +461,13 @@
 	cursor: pointer;
 }
 
+@media (max-width: 1275px) {
+	.extension-editor > .body > .content > .details > .additional-details-container .categories-container > .categories > .category,
+	.extension-editor > .body > .content > .details > .additional-details-container .tags-container > .tags > .tag {
+		width: min-content;
+	}
+}
+
 .extension-editor > .body > .content > .details > .additional-details-container .resources-container > .resources > .resource {
 	display: block;
 	cursor: pointer;
